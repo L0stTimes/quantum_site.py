@@ -101,4 +101,5 @@ st.info("💡 **Совет:** Поставьте энергию E = 3.0 эВ, а
 if current_prob > 0.01:
     st.success(f"Вероятность для выбранных параметров: {format_prob(current_prob)}")
 else:
+
     st.warning(f"Вероятность для выбранных параметров: {format_prob(current_prob)}")
