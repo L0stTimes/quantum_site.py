@@ -14,7 +14,7 @@
       const code = await (await fetch("app/app.py")).text();
       stlite.mount(
         {
-          requirements: ["numpy", "matplotlib"],
+          requirements: ["numpy", "plotly"],
           entrypoint: "app.py",
           files: { "app.py": code },
         },
